@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: resume1
+      app: resume
   template:
     metadata:
       labels:
