@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: resume
+      app: resume1
   template:
     metadata:
       labels:
-        app: resume1
+        app: resume
     spec:
       containers:
       - name: resume
